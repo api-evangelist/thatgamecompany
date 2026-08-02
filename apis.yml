@@ -1,8 +1,24 @@
 aid: thatgamecompany
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thatgamecompany.png
 name: ThatGameCompany
-description: 'ThatGameCompany is a company surfaced as a portfolio company of hongshan and added to the
-  API Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ThatGameCompany is an American independent video game studio founded
+  in 2006 by Jenova Chen and Kellee Santiago, known for emotionally driven, art-forward
+  titles including Flow, Flower, Journey, and the free-to-play social adventure Sky:
+  Children of the Light. The studio focuses on creating timeless interactive entertainment
+  that inspires human connection across all ages. It publishes no public developer
+  API; this API Evangelist profile tracks the company as a technology / gaming entity
+  and records domain-security posture from live probes.'
 url: https://raw.githubusercontent.com/api-evangelist/thatgamecompany/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Technology
+- Video Games
+- Gaming
+- Game Studio
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,18 @@ maintainers:
 common:
 - type: Website
   url: https://thatgamecompany.com
+- type: Careers
+  url: https://thatgamecompany.com/careers/
+- type: Blog
+  url: https://thatgamecompany.com/news/
+- type: Support
+  url: https://thatgamecompany.helpshift.com/
+- type: PrivacyPolicy
+  url: https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/461-privacy-policy/
+- type: DomainSecurity
+  url: security/thatgamecompany-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
